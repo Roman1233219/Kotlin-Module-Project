@@ -15,7 +15,7 @@ fun main() {
                 while (nameArch == null) {
                     println("Введите название архива:")
                     var input = readlnOrNull()
-                    nameArch = ChecingToInput().chec(input)
+                    nameArch = errorMessage.chec(input)
 
                 }
                 addNotes.addArchive(nameArch)

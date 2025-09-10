@@ -1,6 +1,6 @@
 class ChecingToInput(){
     fun chec(input: String?): String? {
-        return input?.takeIf { it.isNotEmpty() } ?: run {
+        return input?.takeIf { it.isNotBlank() } ?: run {
             inputError()
             null
         }
