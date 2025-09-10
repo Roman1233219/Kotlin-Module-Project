@@ -1,0 +1,1 @@
+class Note(val titleNote: String, val textNote: String)
