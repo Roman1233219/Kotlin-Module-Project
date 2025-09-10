@@ -1,0 +1,1 @@
+class Archive(val archive: String, val notes: MutableList<Note>)
